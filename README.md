@@ -1,64 +1,33 @@
 
-# 🧠 Flutter Quiz App
+# Flutter Quiz App
 
-> A simple Flutter-based quiz app to test knowledge with multiple-choice questions.  
-> Clean UI, interactive answer selection, and dynamic question display.
+A simple Flutter-based quiz app to test knowledge with multiple-choice questions. 
 
-![Flutter](https://img.shields.io/badge/Flutter-3.0+-blue?logo=flutter)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+### Table of Contents
 
----
+- [How to Use](#how-to-use)
+- [How to Check Ans](#how-to-check-ans)
 
-## 📸 Screenshot
+## How to Use
 
-<img src="images
-/logo.jpeg" width="250" alt="App Screenshot">
+On the first page, the main quiz screen will be displayed, where you can start your quiz simply by clicking Start Quiz.
 
----
+<p align="center">
+    <img src="images/Screenshot 2025-04-12 at 4.55.48 PM.png" alt="Instruction Page" width="150"/>
+</p>
 
-## 📚 Contents
+The app dynamically displays questions with answer options, and the user can select an answer to interact with the app.
 
-- [Features](#-features)
-- [Compatibility](#-compatibility)
-- [Getting Started](#-getting-started)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Maintainers](#-maintainers)
-- [License](#-license)
+<p align="center">
+    <img src="images/Screenshot 2025-04-12 at 4.55.16 PM.png" alt="home Page" width="150"/>
+</p>
 
----
+## How to Check Ans
 
-## ✨ Features
-
-- 📋 Multiple-choice questions displayed dynamically  
-- 🎯 Interactive buttons for selecting answers  
-- 🧼 Simple UI with `Text`, `Column`, and `ElevatedButton` widgets  
-- (Optional) Score tracking or quiz completion status
-
----
-
-## ✅ Compatibility
-
-| Flutter SDK | Dart SDK     | Platforms       |
-|-------------|--------------|-----------------|
-| >=3.0.0     | >=2.17.0     | Android, iOS    |
-
----
-
-## 🚀 Getting Started
-
-### Requirements
-
-- [Flutter SDK](https://flutter.dev/docs/get-started/install)
-- IDE like Android Studio or VS Code
-- Emulator or real device
-
-### Installation
-
-```bash
-git clone https://github.com/your-username/flutter_quiz_app.git
-cd flutter_quiz_app
-flutter pub get
-flutter run
+A review of all the questions:
+🟥 Incorrectly selected answers (highlighted in red)
+🟦 Correct answers (highlighted in blue)
+  <p align="center">
+    <img src="images/Screenshot 2025-04-12 at 4.55.32 PM.png" alt="home Page" width="150"/>
+</p>
 
