@@ -63,6 +63,9 @@ flutter:
   assets:
     - images/quiz2.jpeg
     - images/quiztp.png
+    - images/Screenshot 2025-04-12 at 4.55.32 PM.png
+    - images/Screenshot 2025-04-12 at 4.55.16 PM.png
+    - images/Screenshot 2025-04-12 at 4.55.48 PM.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
