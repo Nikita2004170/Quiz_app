@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:new_quiz/classquestion%20.dart';
 
 class identifier extends StatelessWidget {
   const identifier(

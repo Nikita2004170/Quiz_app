@@ -1,6 +1,4 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:new_quiz/classquestion%20.dart';
 import 'package:new_quiz/model/questionans.dart';
 import 'package:new_quiz/question_summary.dart';
 
